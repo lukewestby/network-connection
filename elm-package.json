@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "summary": "Find out if the browser has a connection to the internet.",
+    "repository": "https://github.com/lukewestby/network-connection.git",
+    "license": "MIT",
+    "source-directories": [
+        "./src"
+    ],
+    "exposed-modules": ["NetworkConnection"],
+    "native-modules": true,
+    "dependencies": {
+        "elm-lang/core": "4.0.3 <= v < 5.0.0"
+    },
+    "elm-version": "0.17.1 <= v < 0.18.0"
+}
