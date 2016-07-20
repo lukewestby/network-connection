@@ -45,7 +45,7 @@ connectedToConnection isConnected =
 -}
 isConnected : Task x Bool
 isConnected =
-    Native.NetworkConnection.isConnected
+    Native.NetworkConnection.isConnected ()
 
 
 {-| Get whether the internet is unavailable.
